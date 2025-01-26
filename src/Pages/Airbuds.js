@@ -4,9 +4,9 @@ import { Routes, Route, Link } from "react-router-dom";
 import Cart from "../component/Cart";
 
 
-
+console.log(process.env.PUBLIC_URL, "Hello")
 const  airbuds = [
-  { id: 16, name: "Apple buds gen3", price: 19999, image: "/img/applebuds.jfif", category: 'Airbuds' },
+  { id: 16, name: "Apple buds gen3", price: 19999, image: `${process.env.PUBLIC_URL}/img/applebuds.jfif`, category: 'Airbuds' },
   { id: 17, name: "Samsung buds pro", price: 15999, image: "/img/samsungbuds.jfif", category: 'Airbuds' },
   { id: 18, name: "Oppo enco buds 2", price: 1599, image: "/img/oppo enco buds.jfif", category: 'Airbuds' },
   { id: 19, name: "Boat nirvana buds", price: 999, image: "/img/boat buds.jfif", category: 'Airbuds' },
