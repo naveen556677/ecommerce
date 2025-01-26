@@ -75,12 +75,12 @@ const [out,setOut]=useState(true)
     }
   }, []);
   const products = [
-    { id: 3, name: "Samsung s24 ultra", price: 129999, image: "/img/Samsung-Galaxy-S24-Ultra-8K-Feature.jpg", category: 'Mobile' },
-    { id: 1, name: "Apple iphone16 pro max", price: 179999, image: "/img/iphone16promax.jfif", category: 'Mobile' },
-    { id: 12, name: "Apple macbook m3 pro", price: 189999, image: "/img/mackbookpro.jfif", category: 'Laptop' },
-    { id:11, name: "Samsung galaxybook4 pro", price: 89999, image: "/img/samsungbook.jfif", category: 'Laptop' },
-    { id: 16, name: "Apple buds gen3", price: 19999, image: "/img/applebuds.jfif", category: 'Airbuds' },
-    { id: 17, name: "Samsung buds pro", price: 15999, image: "/img/samsungbuds.jfif", category: 'Airbuds' },
+    { id: 3, name: "Samsung s24 ultra", price: 129999, image: "ecommerce/img/Samsung-Galaxy-S24-Ultra-8K-Feature.jpg", category: 'Mobile' },
+    { id: 1, name: "Apple iphone16 pro max", price: 179999, image: "ecommerce/img/iphone16promax.jfif", category: 'Mobile' },
+    { id: 12, name: "Apple macbook m3 pro", price: 189999, image: "ecommerce/img/mackbookpro.jfif", category: 'Laptop' },
+    { id:11, name: "Samsung galaxybook4 pro", price: 89999, image: "ecommerce/img/samsungbook.jfif", category: 'Laptop' },
+    { id: 16, name: "Apple buds gen3", price: 19999, image: "ecommerce/img/applebuds.jfif", category: 'Airbuds' },
+    { id: 17, name: "Samsung buds pro", price: 15999, image: "ecommerce/img/samsungbuds.jfif", category: 'Airbuds' },
   ]
   const handleLogin = (email, password) => {
     if (email && password){
@@ -380,7 +380,7 @@ const [out,setOut]=useState(true)
                   Welcome to our E-Commerce Store!
                 </Typography>
                 <Box>
-                <CardMedia component='img'  image='/img/wallpaper.jpg' height='300'  sx={{width:'100%',objectFit:'cover',marginBottom:2}}/>
+                <CardMedia component='img'  image='ecommerce/img/wallpaper.jpg' height='300'  sx={{width:'100%',objectFit:'cover',marginBottom:2}}/>
                 </Box>
                 <Grid container spacing={2}>
                   {products.map((product) => (

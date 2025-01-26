@@ -6,12 +6,12 @@ import Cart from "../component/Cart";
 
 
 const  laptop = [
-  { id: 10, name: "Asus Zenbook S13", price: 59999, image: "/img/Asus zenbook S 13.jfif", category: 'Laptop' },
-  { id: 11, name: "Samsung galaxybook4 pro", price: 89999, image: "/img/samsungbook.jfif", category: 'Laptop' },
-  { id: 12, name: "Apple macbook m3 pro", price: 189999, image: "/img/mackbookpro.jfif", category: 'Laptop' },
-  { id: 13, name: "Lenova LOQ", price: 67999, image: "/img/Lenova loq.jfif", category: 'Laptop' },
-  { id: 14, name: "hp Spectre X360", price: 98999, image: "/img/hp spectre x360.jfif", category: 'Laptop' },
-  { id: 15, name: "DEL i7", price: 129999, image: "/img/del.jfif", category: 'Laptop' },
+  { id: 10, name: "Asus Zenbook S13", price: 59999, image: "ecommerce/img/Asus zenbook S 13.jfif", category: 'Laptop' },
+  { id: 11, name: "Samsung galaxybook4 pro", price: 89999, image: "ecommerce/img/samsungbook.jfif", category: 'Laptop' },
+  { id: 12, name: "Apple macbook m3 pro", price: 189999, image: "ecommerce/img/mackbookpro.jfif", category: 'Laptop' },
+  { id: 13, name: "Lenova LOQ", price: 67999, image: "ecommerce/img/Lenova loq.jfif", category: 'Laptop' },
+  { id: 14, name: "hp Spectre X360", price: 98999, image: "ecommerce/img/hp spectre x360.jfif", category: 'Laptop' },
+  { id: 15, name: "DEL i7", price: 129999, image: "ecommerce/img/del.jfif", category: 'Laptop' },
   
   ];
  
