@@ -380,7 +380,7 @@ const [out,setOut]=useState(true)
                   Welcome to our E-Commerce Store!
                 </Typography>
                 <Box>
-                <CardMedia component='img'  image={`${process.env.PUBLIC_URL}/img/wallpaper.jpg`} height='300'  sx={{width:'100%',objectFit:'cover',marginBottom:2}}/>
+                <CardMedia component='img'  image='/img/wallpaper.jpg' height='300'  sx={{width:'100%',objectFit:'cover',marginBottom:2}}/>
                 </Box>
                 <Grid container spacing={2}>
                   {products.map((product) => (
