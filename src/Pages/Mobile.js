@@ -6,15 +6,15 @@ import Cart from "../component/Cart";
 
 
 const  moblies = [
-  { id: 1, name: "Apple iphone16 pro max", price: 179999, image: "/img/iphone16promax.jfif", category: 'Mobile' },
-  { id: 2, name: " Apple iphone 16", price: 79999, image: "/img/iphone16.jfif", category: 'Mobile' },
-  { id: 3, name: "Samsung s24 ultra", price: 129999, image: "/img/Samsung-Galaxy-S24-Ultra-8K-Feature.jpg", category: 'Mobile' },
-  { id: 4, name: "Samsung S24", price: 65999, image: "/img/samsung 24.jfif", category: 'Mobile' },
-   { id: 5, name: "Samsung Fold 4", price: 139999, image: "/img/samsung fold.jfif", category: 'Mobile' },
-  { id: 6, name: "Vivo X200Pro", price: 89990, image: "/img/vivox200pro.jfif", category: 'Mobile' },
-   { id: 7, name: "Vivo V40 Pro", price: 49990, image: "/img/vivo v40pro.webp", category: 'Mobile' },
-  { id: 8, name: "Google Pixel 9 Pro", price: 139999, image:"/img/googlepixel9pro.jpg", category: 'Mobile' }, 
- { id: 9, name: "Oppo find X6 Pro", price: 89999, image: "/img/Oppo-Find-X6-Pro.webp", category: 'Mobile' },
+  { id: 1, name: "Apple iphone16 pro max", price: 179999, image: "ecommerce/img/iphone16promax.jfif", category: 'Mobile' },
+  { id: 2, name: " Apple iphone 16", price: 79999, image: "ecommerce/img/iphone16.jfif", category: 'Mobile' },
+  { id: 3, name: "Samsung s24 ultra", price: 129999, image: "ecommerce/img/Samsung-Galaxy-S24-Ultra-8K-Feature.jpg", category: 'Mobile' },
+  { id: 4, name: "Samsung S24", price: 65999, image: "ecommerce/img/samsung 24.jfif", category: 'Mobile' },
+   { id: 5, name: "Samsung Fold 4", price: 139999, image: "ecommerce/img/samsung fold.jfif", category: 'Mobile' },
+  { id: 6, name: "Vivo X200Pro", price: 89990, image: "ecommerce/img/vivox200pro.jfif", category: 'Mobile' },
+   { id: 7, name: "Vivo V40 Pro", price: 49990, image: "ecommerce/img/vivo v40pro.webp", category: 'Mobile' },
+  { id: 8, name: "Google Pixel 9 Pro", price: 139999, image:"ecommerce/img/googlepixel9pro.jpg", category: 'Mobile' }, 
+ { id: 9, name: "Oppo find X6 Pro", price: 89999, image: "ecommerce/img/Oppo-Find-X6-Pro.webp", category: 'Mobile' },
  ];
  
   function Mobile({cartItems,onAddToCart}){

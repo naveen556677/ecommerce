@@ -6,12 +6,12 @@ import Cart from "../component/Cart";
 
 
 const  watch = [
-    { id: 22, name: "Apple Watch", price:59999, image: '/img/apple watch.jfif',category: 'Watch' },
-    { id: 23, name: "Samsung watch", price: 39999, image:"/img/samsung watch.jfif",category: 'Watch'},
-    { id: 24, name: "Google pixel watch", price: 69999, image: "/img/google watch.jfif",category: 'Watch' },
-    { id: 25, name: "Firebolt watch", price: 3999, image: "/img/firebolt watch.jfif",category: 'Watch'},
-    { id: 26, name: "Casio watch", price: 14999, image: "/img/casio watch.jfif",category: 'Watch' },
-    { id: 27, name: "Realme watch", price: 1599, image: "/img/realme watch.jfif",category: 'Watch'}
+    { id: 22, name: "Apple Watch", price:59999, image: 'ecommerce/img/apple watch.jfif',category: 'Watch' },
+    { id: 23, name: "Samsung watch", price: 39999, image:"ecommerce/img/samsung watch.jfif",category: 'Watch'},
+    { id: 24, name: "Google pixel watch", price: 69999, image: "ecommerce/img/google watch.jfif",category: 'Watch' },
+    { id: 25, name: "Firebolt watch", price: 3999, image: "ecommerce/img/firebolt watch.jfif",category: 'Watch'},
+    { id: 26, name: "Casio watch", price: 14999, image: "ecommerce/img/casio watch.jfif",category: 'Watch' },
+    { id: 27, name: "Realme watch", price: 1599, image: "ecommerce/img/realme watch.jfif",category: 'Watch'}
   ];
  
   function Watch({cartItems,onAddToCart}){
